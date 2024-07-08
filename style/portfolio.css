@@ -9,9 +9,9 @@
   }
 
   /* shared style */
-  /* .text-primary{
+  .text-primary{
     color: #FD6E0A;
-  } */
+  }
 
   .btn-primary{
     background-color: #FD6E0A;
@@ -26,6 +26,8 @@
     background-image: url('../images/developer.png') , url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left , bottom right;
+    width: 1600px;
+    height: 837px;
   }
 
   .dark-2{
@@ -71,6 +73,7 @@ nav li a {
 .banner-greetings{
     font-weight: 600;
     font-size: 45px;
+    margin: 0;
     
 
 }
@@ -78,6 +81,8 @@ nav li a {
 .banner-content{
     width: 585px;
     margin-left: 230px;
+    margin-top: 185px;
+   
 }
 .dark-1{
     color: #181818;
@@ -88,14 +93,18 @@ nav li a {
 .banner-title{
     font-weight: bold;
     font-size: 85px;
+    margin: 0;
 }
 .banner-description{
     font-weight: normal;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .banner-profile-pic{
     width: 584px;
-    height: 676px;
+    height: 635px;
     margin-right: 38px;
+    margin: 0;
+    
 }
