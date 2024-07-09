@@ -12,6 +12,29 @@
   .text-primary{
     color: #FD6E0A;
   }
+  main{
+    margin: 0 auto;
+    max-width: 1140px;
+  }
+
+  .section-about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 157px;
+    margin-top: 130px;
+    
+  }
+
+  .about{
+    background-color: #FFFFFF;
+    
+    
+  }
+
+  .section-title{
+
+  }
 
   .btn-primary{
     background-color: #FD6E0A;
@@ -23,11 +46,12 @@
     padding: 18px 35px;
   }
   .header{
+    
     background-image: url('../images/developer.png') , url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left , bottom right;
-    width: 1600px;
-    height: 837px;
+    background-color: #FFF8F3;
+    
   }
 
   .dark-2{
@@ -107,4 +131,33 @@ nav li a {
     margin-right: 38px;
     margin: 0;
     
+}
+
+.everything{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.para2{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+    margin-top: 0;
+}
+.para{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 0;
+}
+
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
 }
